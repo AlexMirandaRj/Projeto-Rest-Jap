@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=DynaPuff&display=swap');
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+
+
+body {
+  margin: 0;
+  background: white;
+}
+
+header {
+    
+  display:flex;
+  flex-direction: row;
+  
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+justify-content: center;
+   margin-top: 20px;
+ 
+}
+header .logo {
+  display: inline-block;
+  margin-top: 20px;
+  float: left;
+}
+
+header nav ul {
+  padding-left: 0;
+  height: 64px;
+  display:flex ;
+  list-style: none;
+  
+}
+
+    nav>ul>li>a,
+    nav>ul>li>a:visited {
+      padding: 0auto;
+      background: white;
+      color: #31afb4;
+      padding: 15px;
+      text-decoration: none;
+      transition: all 0.3s linear;
+      position: relative;
+      float: left;
+      font-size: 18px;
+      font-family: 'DynaPuff', cursive;
+
+    }
+
+ 
+
+    nav>ul>li>a:before {
+      content: "";
+      position: absolute;
+      width: 0;
+      height: 3px;
+      background: #ff9c9b;
+      left: 0;
+      top: 0;
+      transition: all 0.3s linear;
+    }
+
+    nav>ul>li>a:hover:before {
+      width: 100%;
+      
+    }
+
+   
+
+
+
+    nav>ul>li>ul {
+      display: none;
+      position: absolute;
+      list-style: none;
+      padding-left: 0;
+      margin: auto;
+      top: 61px;
+    }
+
+    nav>ul>li>ul>li {
+      width: 100%
+    }
+
+    
+      
+    }
+
+    nav>ul>li:hover>ul {
+      display: block;
+    }
+
+  .conteiner-banner{text-align: center;}
+  
+  .banner-area {background-color: #f7f7f7;}
+   
+   .h2-verde {color: #31afb4; 
+              font-family: 'DynaPuff', cursive;
+             margin: 50px auto;
+             width: 300px;
+             height: 20px;
+             font-size: 20px;
+             line-height: 30px;
+             transition: 0.3 ease;
+             }
+  .h2-verde:hover { transform: scale(1.2);
+                  -webkit-transform: scale(1.2);
+                  -ms-transform: scale(1.2);
+             }
+
+  .p-puff {font-family: 'DynaPuff', cursive; }
+
+#box-1 {
+ height: 57px;
+    width: 8%;
+    border: solid 10px #ff9c9b;
+    margin: auto ;
+    margin-top: 50px;
+    padding: 15px 105px;
+    border-radius: 50px;
+  
+}
+#box-1:hover {transform: scale(1.2);
+                  -webkit-transform: scale(1.2);
+                  -ms-transform: scale(1.2)
+  }
+#box-slider { display: flex;
+            justify-content: center;
+            background-color: #31afb4 ;
+           
+            margin-top: 15px;}
