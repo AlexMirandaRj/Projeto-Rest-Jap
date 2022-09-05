@@ -1,4 +1,3 @@
-<!-- Crie um cabeçalho contendo uma  logo a esquerda e um menu a direita. Pode pegar o menu do exercício da aula 5 se preferir, mas seria legal repraticar fazendo seu próprio menu. -->
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -7,6 +6,8 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="./assets/css/style.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet" />
+
 
 
 
@@ -22,7 +23,7 @@
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#">Catálogo</a>
+        <li><a href="#catalogo">Catálogo</a>
         <li><a href="#">Contato</a></li>
       </ul>
     </nav>
@@ -41,7 +42,9 @@
         <div class="conteudo-area">
 
           <div id="sobre">
-            <h2 class="h2-verde">À procura do Japa mais perto? </h2>
+            <div class="animate__heartBeat">
+              <h2 class="h2-verde">À procura do Japa mais perto? </h2>
+            </div>
 
             <p class="p-puff">É aqui! Você vai achar o seu preço e serviço ideal, aqui mesmo ao redor de Lisboa! <br>
               Nós
@@ -56,15 +59,51 @@
           </div>
         </div>
       </div>
-    </section>
 
-    <section>
       <div id="box-1">
         <img src="./assets/img/logo.png" alt="logo" height="60">
       </div>
 
-      <div id="box-slider">
+      <div id="flex-slider">
         <img src="assets/img/slider.png" alt="slider">
+      </div>
+
+
+    </section>
+
+    <section>
+      <div id="catalogo">
+        <h2 class="h2-verde"> Catálogo </h2>
+      </div>
+      <br>
+      <div class="container-catalogo">
+        <div class="row">
+          <div class="col box-rest col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <img src="assets/img/sushi.png" class="imagens" alt="restaurante1">
+
+          </div>
+          <div class="col box-rest col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <img src="assets/img/sushi2.png" class="imagens" alt="restaurante2">
+
+          </div>
+          <div class="col box-restcol-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <img src="assets/img/sushi3.png" class="imagens" alt="restaurante3">
+
+          </div>
+          <div class="col box-rest col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <img src="assets/img/sushi4.png" class="imagens" alt="restaurante4">
+
+          </div>
+          <div class="col box-rest col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <img src="assets/img/sushi5.png" class="imagens" alt="restaurante5">
+
+          </div>
+          <div class="col box-rest col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-6 col-xs-12">
+            <img src="assets/img/sushi6.png" class="imagens" alt="restaurante6">
+
+          </div>
+
+        </div>
       </div>
 
 
