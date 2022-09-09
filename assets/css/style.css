@@ -97,7 +97,8 @@ header nav ul {
       display: block;
     }
 
-  .conteiner-banner{text-align: center;}
+  .conteiner-banner{text-align: center;
+                   }
   
   .banner-area {background-color: #f7f7f7;}
 
@@ -119,14 +120,14 @@ header nav ul {
   .p-puff {font-family: 'DynaPuff', cursive; }
 
 #box-1 {
- height: 57px;
-    width: 8%;
+    height: 87px;
+    width: 50%;
     border: solid 10px #ff9c9b;
     margin: auto ;
     margin-top: 50px;
-    padding: 15px 105px;
+    text-align: center;
     border-radius: 50px;
-    position: relative;
+    justify-content: center;
   }
 #box-1:hover {transform: scale(1.2);
                   
@@ -142,9 +143,9 @@ header nav ul {
                     justify-content: center;
                     border: solid 10px #ff9c9b;
                     border-radius: 50px;
-                    padding: 10px;
-                     width: 100px;
-                     line-height: 20px;
+                    padding: 50px;
+                     width: 50px;
+                     line-height: 5px;
                      position: relative;
                     animation-name: movimento;
                     animation-duration: 4s;
@@ -162,11 +163,15 @@ header nav ul {
 }
 .imagens:hover {transform: scale(1.2); }
 
-/* XX-Large */
+
 .container-catalogo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   width: 100%;
   max-width: 1280px;
   margin: 0 auto;
+  padding-bottom: 50px;
 }
 
 .row {
@@ -177,6 +182,8 @@ header nav ul {
 .box-rest {
   
 }
+ 
+
 
 .col {
   float: left;
